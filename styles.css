@@ -1,0 +1,243 @@
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 25px 10%;
+    background-color: #1EB6E1;
+  }
+  
+  .logo {
+    margin-right: auto;
+    color:white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+  }
+  
+  .nav__links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav__links a,
+  .cta,
+  .overlay__content a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #edf0f1;
+    text-decoration: none;
+  }
+  
+  .nav__links li {
+    padding: 0px 20px;
+  }
+  
+  .nav__links li a {
+    transition: all 0.3s ease 0s;
+  }
+  
+  .nav__links li a:hover {
+    color: rgba(0, 136, 169, 0.8)
+  }
+  .act{
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;;
+  }
+
+
+  .cta {
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+  }
+  
+  .cta:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+  }
+  
+  /* Mobile Nav */
+  
+  .menu {
+    display: none;
+  }
+  
+  .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: #1EB6E1;
+    overflow-x: hidden;
+    transition: all 0.5s ease 0s;
+  }
+  
+  .overlay--active {
+    width: 100%;
+  }
+  
+  .overlay__content {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .overlay a {
+    padding: 15px;
+    font-size: 36px;
+    display: block;
+    transition: all 0.3s ease 0s;
+  }
+  
+  .overlay a:hover,
+  .overlay a:focus {
+    color: #0088a9;
+  }
+  .overlay .close {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    color: #edf0f1;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .overlay a {
+      font-size: 20px;
+    }
+    .overlay .close {
+      font-size: 40px;
+      top: 15px;
+      right: 35px;
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .nav__links,
+    .cta {
+      display: none;
+    }
+    .menu {
+      display: initial;
+    }
+
+    .my{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color:white
+
+    }
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+    font-family: "Ubuntu", sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  body{
+    background-color:#1EB6E1;
+    font-family: 'Open Sans', sans-serif;
+}
+.div1{
+    text-align: left;
+    color:white;
+    background-color: black;
+    padding: 35px;
+    margin-left: 860px;
+    margin-top: 230px;
+    margin-right: 500px;
+    width: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.div2{
+    text-align: center;
+    color:black;
+    background-color: rgb(78, 67, 67);
+    padding: 30px;
+    margin-left: 530px;
+    margin-top: -450px;
+    margin-right: 500px;
+    width: 330px;
+    height: 535px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.pic{
+
+    display: inline-block;
+    padding: 8px;
+    background: linear-gradient(130deg, #74b9ff, #e66767);
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 50%;
+    background-size: 200% 200%;
+    animation: animated-gradient 2s linear infinite;
+    
+  }
+.pic img{
+    display: block;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    text-align: center;
+  }
+  .div3{
+      
+      background-color: white;
+      margin-left: -29px;
+      height:42px;
+      width:389px;
+  }
+  .rush{
+      font-size: 30px;
+      text-decoration: solid;
+  }
+  hr{
+      width: 50px;
+      height: 1px;
+      background-color: #1EB6E1;
+      margin-left: 115px;
+      border: none;
+  }
+  h1{
+      font-size: 80px;
+  }
+  .sm{
+    display: flex;
+    justify-content: center;
+    margin-left: -55px;
+    height:42px;
+    width:389px;
+  }
+  
+  .sm a{
+    color: black;
+    width: 56px;
+    font-size: 22px;
+    transition: .3s linear;
+  }
+  
+  .sm a:hover{
+    color: #1EB6E1;
+  }
