@@ -46,3 +46,11 @@ td{
 .button:hover{
     color:#166a81;
 }
+@media only screen and (max-width: 800px) {
+    .cert{
+        width: 100%;
+    }
+    .cert2{
+        width: 100%;
+    }
+}
