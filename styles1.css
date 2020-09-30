@@ -1,0 +1,48 @@
+.cert{
+    color: white;
+    margin-top: ;
+    background-color: #4E4343;
+    padding: 30px 10px 10px 10px;
+    width: 60%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+table{
+    border:none;
+    color:black;
+    font-size: 30px;
+    padding: 20px;
+    
+}
+td{
+    padding: 10px;
+}
+.h3{
+    color:white;
+}
+.pad{
+    margin-bottom: 100px;
+    color:white;
+}
+.button{
+    padding: 9px 25px;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 20px;
+}
+.cert2{
+    background-color: black;
+    color:white;
+    padding:15px;
+    width: 60%;
+    margin-top: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button:hover{
+    color:#166a81;
+}
