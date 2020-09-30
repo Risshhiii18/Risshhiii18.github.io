@@ -40,11 +40,22 @@
         <script type="text/javascript" src="mobile.js"></script>
         <center>
             <div>
-                <form action="conc.php" method="POST">
-                    <p>Name</p> <input type="text" name="name">
-                    <p>Email</p> <input type="text" name="email">
-                    <p>Message</p><textarea name="message" rows="6" cols="25"></textarea><br />
-                    <input type="submit" value="Send"><input type="reset" value="Clear">
+                <form
+                    action="https://formspree.io/f/mbjplppj"
+                            method="POST"
+                                            >
+                <label>
+                Your email:
+                <input type="text" name="_replyto">
+                </label>
+                 <label>
+                Your message:
+                <textarea name="message"></textarea>
+                </label>
+
+                <!-- your other form fields go here -->
+
+                <button type="submit">Send</button>
                 </form>
             </div>
             </center>
