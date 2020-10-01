@@ -54,3 +54,64 @@ td{
         width: 100%;
     }
 }
+
+.form{
+    background-color: #4E4343;
+    color: black;
+    width: 40%;
+    padding: 30px;
+    margin-top: 120px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.field{
+    width: 100%;
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: 2px solid rgba(0, 0, 0, 0);
+    background-color: rgba(230, 230, 230, 0.6);
+    font-size: 1.1rem;
+    margin-bottom: 22px;
+    transition: .3s;
+    margin-right: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.field:focus{
+    background-color: #fff;
+    border: 2px solid rgba(30,85,250,.47);
+}
+.heading{
+    background-color: black;
+    color:white;
+    padding:15px;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.heading-txt{
+    width: 100%;
+    margin-top: -10px;
+    text-align: left;
+}
+
+.heading1{
+    color:black;
+    display: flex;
+    margin-left: 270px;
+    height:22px;
+    width:389px;
+
+}
+
+  .heading1 a{
+    color: black;
+    width: 56px;
+    font-size: 22px;
+    transition: .3s linear;
+  }
+  
+  .heading1 a:hover{
+    color: #1EB6E1;
+  }
