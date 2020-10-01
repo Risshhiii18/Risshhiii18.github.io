@@ -53,6 +53,15 @@ td{
     .cert2{
         width: 100%;
     }
+    .footer{
+        display: none;
+    }
+    .footer-left{
+        display: none;
+    }
+    .footer-right{
+        display: none;
+    }
 }
 
 .form{
