@@ -115,3 +115,35 @@ td{
   .heading1 a:hover{
     color: #1EB6E1;
   }
+
+  .footer{
+    background-color: #4E4343;
+    position: relative;
+    height: 70px;
+    clear: both;
+    text-align: left;
+    bottom: 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+center{
+    height: 100%;
+}
+.footer-left{
+    height: 50px;
+    margin-left: 150px;
+    text-align:center;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 10px;
+}
+
+.footer-right{
+  height: 50px;
+  text-align: right;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  padding-top: 10px;
+}
